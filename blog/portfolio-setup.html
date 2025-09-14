@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Building My Personal Portfolio Website – Alec Wyen</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Alec Wyen</h1>
+  <p>Firmware & Systems Engineering | BIOS, Embedded Systems, and Emerging Memory</p>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../resume.html">Resume</a>
+    <a href="../projects/index.html">Projects</a>
+    <a href="../blog/index.html">Blog</a>
+    <a href="../contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Building My Personal Portfolio Website with GitHub Pages</h2>
+    <p class="article-date">September 2025</p>
+
+    <article>
+      <p>Over the past few weeks, I wanted to create a central online location to showcase my work, share tutorials, and document projects. I decided on a personal portfolio website using <strong>GitHub Pages</strong> because it’s free, flexible, and integrates seamlessly with version control.</p>
+
+      <h3>Step 1: Set Up the Repository</h3>
+      <p>I created a new repository on GitHub under my username (<code>aswyen</code>) named <code>alecwyen.github.io</code>. GitHub Pages automatically hosts this repository at <code>https://alecwyen.github.io</code> when using the main branch.</p>
+
+      <h3>Step 2: Connect My Custom Domain</h3>
+      <p>I already owned <code>alecwyen.com</code>. To point it to GitHub Pages, I added a <code>CNAME</code> file with my domain and updated the DNS records (A records for <code>@</code> and <code>CNAME</code> for <code>www</code>). GitHub confirmed the domain after DNS propagation.</p>
+
+      <h3>Step 3: Enable HTTPS</h3>
+      <p>Initially, HTTPS wasn’t available because the certificate had not yet issued. After DNS confirmed, GitHub issued the SSL certificate, allowing me to enforce HTTPS and secure the site.</p>
+
+      <h3>Step 4: Organize Directory Structure</h3>
+      <p>I decided to separate content for maintainability:</p>
+      <ul>
+        <li><code>blog/</code> for articles</li>
+        <li><code>projects/</code> for project pages</li>
+        <li><code>styles/</code> for CSS</li>
+        <li><code>scripts/</code> for JavaScript</li>
+        <li><code>images/</code> for screenshots and thumbnails</li>
+      </ul>
+
+      <h3>Step 5: Build Pages and Layouts</h3>
+      <p>Using simple HTML templates, I created:</p>
+      <ul>
+        <li>An <strong>index page</strong> for the landing experience</li>
+        <li>A <strong>resume page</strong> with my full professional experience</li>
+        <li><strong>Projects and blog overview pages</strong> using responsive card layouts</li>
+        <li>Individual pages for projects and articles</li>
+      </ul>
+
+      <h3>Step 6: Decoupled CSS and JS</h3>
+      <p>All styling resides in <code>/styles/style.css</code> and scripts in <code>/scripts/script.js</code>. This keeps HTML clean and allows future updates without touching the HTML content.</p>
+
+      <h3>Step 7: Using AI Tools to Accelerate Development</h3>
+      <p>I leveraged ChatGPT to help generate templates, debug deployment issues, and ensure consistency across pages. It was like having a virtual assistant for front-end development.</p>
+
+      <h3>Next Steps</h3>
+      <p>From here, I plan to populate more blog articles, document tutorials for firmware and BIOS development, and add project showcases. With the directory structure in place, adding new content will be straightforward.</p>
+
+      <p><a href="index.html">← Back to Blog Overview</a></p>
+    </article>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Alec Wyen &nbsp; | &nbsp; <a href="https://github.com/aswyen" target="_blank">GitHub</a>
+</footer>
+
+<script src="../scripts/script.js"></script>
+</body>
+</html>
