@@ -1,0 +1,14 @@
+# Allow all crawlers by default
+User-agent: *
+
+# TEMPORARY: block empty pages until they have real content
+Disallow: /projects.html  # TODO: Remove this line once projects page is populated
+Disallow: /blog.html      # TODO: Remove this line once blog page is populated
+
+# Sitemap reference
+Sitemap: https://alecwyen.com/sitemap.xml
+
+# NOTES:
+# - These "Disallow" lines are temporary placeholders.
+# - Once content is added, remove the Disallow lines so these pages can be indexed.
+# - You can also remove <meta name="robots" content="noindex"> tags from the HTML once pages are ready.
