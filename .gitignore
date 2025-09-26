@@ -1,0 +1,21 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependency directories
+.bundle/
+vendor/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ruby-specific
+Gemfile.lock
+
+# VS Code
+.vscode/
