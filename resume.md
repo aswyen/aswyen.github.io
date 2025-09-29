@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Resume
+permalink: /resume/
 ---
 # Alec Wyen
 ## Firmware & Systems Engineering | BIOS, Embedded Systems, and Emerging Memory
