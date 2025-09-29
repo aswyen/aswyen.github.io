@@ -3,9 +3,17 @@ title: "Building My Personal Portfolio Website"
 layout: single
 date: 2025-09-01
 category: blog
+read_time: true
+toc: true
+excerpt: How I launched my personal portfolio site on GitHub Pages and set the foundation for future projects and tutorials.
+categories: [blog, portfolio]
+tags: [jekyll, github-pages, personal-site, portfolio]
 ---
 
 Over the past few weeks, I wanted to create a central online location to showcase my work, share tutorials, and document projects. I decided on a personal portfolio website using **GitHub Pages** because it’s free, flexible, and integrates seamlessly with version control.
+
+> **Edit (2025):** Since writing this article, I’ve migrated my site to [Jekyll](https://jekyllrb.com/) using the Minimal Mistakes theme. The steps below reflect my original setup with raw HTML/CSS, which I keep here as a record of the process. The site is still hosted on GitHub pages for simplicity.
+
 
 ### Step 1: Set Up the Repository
 I created a new repository on GitHub under my username (`aswyen`) named `alecwyen.github.io`. GitHub Pages automatically hosts this repository at `https://alecwyen.github.io` when using the main branch.

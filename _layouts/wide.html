@@ -1,0 +1,15 @@
+---
+# Custom wide layout for resume
+layout: default
+---
+{% comment %}
+This layout extends the Minimal Mistakes 'single' layout but allows for a wider content area via a custom CSS class.
+{% endcomment %}
+
+<body class="layout--wide">
+  <main id="main" class="page-content" aria-label="Content">
+    <div class="wrapper wide-wrapper">
+      {{ content }}
+    </div>
+  </main>
+</body>

@@ -2,7 +2,12 @@
 title: "Slow Productivity: My Take on Cal Newport’s Latest"
 layout: single
 date: 2025-09-22
-category: blog
+categories: [blog, book-review]
+tags: [productivity, slow productivity, cal newport, book review, leadership]
+read_time: true
+toc: true
+author_profile: false
+excerpt: "A review of Cal Newport’s Slow Productivity: what resonates, what misses, and how I’m testing its ideas in my own work."
 ---
 
 

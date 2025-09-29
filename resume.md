@@ -1,8 +1,6 @@
 ---
-layout: single
+layout: wide
 title: Resume
----
-
 ---
 # Alec Wyen
 ## Firmware & Systems Engineering | BIOS, Embedded Systems, and Emerging Memory

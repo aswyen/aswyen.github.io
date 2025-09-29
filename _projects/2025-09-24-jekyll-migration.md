@@ -2,7 +2,13 @@
 title: "Migrating My Portfolio Site to Jekyll: Streamlined Content Management"
 layout: single
 date: 2025-09-24
-category: blog
+categories: [blog, portfolio]
+tags: [jekyll, github-pages, minimal-mistakes, portfolio, static-sites]
+author_profile: true
+read_time: true
+toc: true
+toc_sticky: true
+excerpt: Migrating my personal site from hand-coded HTML to Jekyll and Minimal Mistakes gave me streamlined publishing, cleaner organization, and a more professional design.
 ---
 
 After launching my personal portfolio site with basic HTML and GitHub Pages, I quickly realized that managing new articles and projects was becoming tedious. Each update required manual HTML edits, link management, and directory juggling. To solve this, I migrated my site to [Jekyll](https://jekyllrb.com/), a static site generator that integrates seamlessly with GitHub Pages and dramatically improves content management.
