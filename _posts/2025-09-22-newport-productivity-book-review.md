@@ -1,10 +1,10 @@
 ---
 title: "Slow Productivity: My Take on Cal Newport’s Latest"
-layout: default
+layout: single
 date: 2025-09-22
-category: posts
+category: blog
 ---
-# **Slow Productivity: My Take on Cal Newport’s Latest**
+
 
 A few weeks ago, my wife and I were comparing notes about our workdays. She’s a professional in her own field, and her calendar looked as overloaded as mine — every task urgent, every meeting feeding into another. As we talked, I realized the same pattern was playing out on my team at Micron: projects, process changes, deliverables, and “quick” asks that are never actually quick.
 

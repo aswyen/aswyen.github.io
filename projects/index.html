@@ -1,0 +1,15 @@
+---
+layout: single
+title: Projects
+---
+
+<div class="mm-cards">
+  {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+  {% for project in sorted_projects %}
+    <div class="mm-card">
+      <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+      <p>{{ project.excerpt | strip_html | truncatewords: 30 }}</p>
+      <small>{{ project.date | date: "%b %-d, %Y" }}</small>
+    </div>
+  {% endfor %}
+</div>

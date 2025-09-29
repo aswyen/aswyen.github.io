@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: single
 title: Resume
 ---
 
+---
 # Alec Wyen
-
 ## Firmware & Systems Engineering | BIOS, Embedded Systems, and Emerging Memory
 
 ---

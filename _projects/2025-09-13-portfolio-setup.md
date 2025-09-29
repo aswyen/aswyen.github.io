@@ -1,13 +1,9 @@
 ---
 title: "Building My Personal Portfolio Website"
-layout: default
+layout: single
 date: 2025-09-01
-category: projects
+category: blog
 ---
-
-## Building My Personal Portfolio Website with GitHub Pages
-
-*September 2025*
 
 Over the past few weeks, I wanted to create a central online location to showcase my work, share tutorials, and document projects. I decided on a personal portfolio website using **GitHub Pages** because it’s free, flexible, and integrates seamlessly with version control.
 

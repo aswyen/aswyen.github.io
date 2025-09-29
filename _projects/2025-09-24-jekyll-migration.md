@@ -1,13 +1,9 @@
 ---
 title: "Migrating My Portfolio Site to Jekyll: Streamlined Content Management"
-layout: default
+layout: single
 date: 2025-09-24
 category: blog
 ---
-
-## Migrating My Portfolio Site to Jekyll: Streamlined Content Management
-
-*September 2025*
 
 After launching my personal portfolio site with basic HTML and GitHub Pages, I quickly realized that managing new articles and projects was becoming tedious. Each update required manual HTML edits, link management, and directory juggling. To solve this, I migrated my site to [Jekyll](https://jekyllrb.com/), a static site generator that integrates seamlessly with GitHub Pages and dramatically improves content management.
 
@@ -22,7 +18,7 @@ Jekyll is designed for building static websites with minimal effort. It lets you
 - **Automatic Navigation & Organization:**  
   No more manual link updates—Jekyll dynamically lists posts and projects using Liquid loops.
 - **Consistent Theming:**  
-  By using the built-in minima theme, my site instantly looks polished and professional. I can further customize layouts and styles as needed.
+  After starting with the built-in minima theme, I switched to the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme for a more modern, feature-rich look. Minimal Mistakes provides beautiful layouts, flexible navigation, and built-in support for author profiles, cards, and collections.
 - **Separation of Content and Layout:**  
   Layouts and includes keep navigation, headers, and footers consistent across all pages, while content stays clean and focused.
 
@@ -35,7 +31,7 @@ Jekyll is designed for building static websites with minimal effort. It lets you
 3. **Leveraged Liquid Templating:**  
    I created index pages for both blog and projects that use Liquid loops to automatically list all entries.
 4. **Enabled Theming:**  
-   By switching to the minima theme, I got a clean navigation bar and consistent styling out of the box.
+  I started with minima, but quickly upgraded to Minimal Mistakes. This theme gave my site a professional look, easy navigation, and powerful features like card-based layouts and author profiles—all with minimal configuration.
 
 ### Lessons Learned
 

@@ -1,6 +1,2 @@
 source 'https://rubygems.org'
-gem 'jekyll'
-gem 'minima', '~> 2.5'
-gem 'jekyll-feed', '~> 0.17'
-gem 'jekyll-livereload'
-gem 'kramdown-parser-gfm'
+gem 'github-pages', group: :jekyll_plugins
