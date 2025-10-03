@@ -1,49 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog – Alec Wyen</title>
-  <link rel="stylesheet" href="../styles/style.css">
-  <!-- TODO: Remove this meta tag when content is added so the page can be indexed -->
-  <meta name="robots" content="noindex, nofollow">  
-</head>
-<body>
+---
+layout: single
+title: Blog
+---
 
-<header>
-  <h1>Alec Wyen</h1>
-  <p>Firmware & Systems Engineering | BIOS, Embedded Systems, and Emerging Memory</p>
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="../resume.html">Resume</a>
-    <a href="../projects/index.html">Projects</a>
-    <a href="../blog/index.html">Blog</a>
-    <a href="../contact.html">Contact</a>
-  </nav>
-</header>
-
-<main>
-  <section>
-    <h2>Blog</h2>
-    <div class="cards-container">
-
-
-      <!-- Placeholder for future articles -->
-      <div class="card placeholder">
-        <h3>Future Article Title</h3>
-        <p class="date">TBD</p>
-        <p class="excerpt">This card will be populated with a future tutorial or insight.</p>
-        <a href="#" class="card-link">Read More</a>
-      </div>
-
+<div class="mm-cards">
+  {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in sorted_posts %}
+    <div class="mm-card">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <small>{{ post.date | date: "%b %-d, %Y" }}</small>
     </div>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 Alec Wyen &nbsp; | &nbsp; <a href="https://github.com/aswyen" target="_blank">GitHub</a>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+  {% endfor %}
+</div>

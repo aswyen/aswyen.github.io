@@ -1,0 +1,13 @@
+title: Alec Wyen
+subtitle: Firmware & Systems Engineering Portfolio
+email: aswyen@gmail.com
+description: >-
+  Your site description
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://aswyen.github.io" # your GitHub Pages URL
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-include-cache
+collections:
+  projects:
+    output: true

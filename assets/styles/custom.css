@@ -1,0 +1,7 @@
+/* Wider content area for resume page using wide layout */
+.wide-wrapper {
+	max-width: 1200px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
